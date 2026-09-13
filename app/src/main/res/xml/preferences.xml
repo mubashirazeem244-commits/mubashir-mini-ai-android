@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Model Settings" />
+    <EditTextPreference
+        android:defaultValue="256"
+        android:key="max_tokens"
+        android:title="Max Tokens"
+        android:summary="Maximum tokens to generate" />
+    <EditTextPreference
+        android:defaultValue="0.7"
+        android:key="temperature"
+        android:title="Temperature"
+        android:summary="Controls randomness (0.0-2.0)" />
+    <EditTextPreference
+        android:defaultValue="0.9"
+        android:key="top_p"
+        android:title="Top P"
+        android:summary="Controls diversity (0.0-1.0)" />
+    <EditTextPreference
+        android:defaultValue="40"
+        android:key="top_k"
+        android:title="Top K"
+        android:summary="Number of top tokens to consider" />
+</PreferenceScreen>

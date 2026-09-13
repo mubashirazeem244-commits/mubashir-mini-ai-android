@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mubashir Mini AI</string>
+    <string name="chat_hint">Type your prompt...</string>
+    <string name="send">Send</string>
+    <string name="models">Models</string>
+    <string name="chat">Chat</string>
+    <string name="model_manager">Model Manager</string>
+    <string name="load">Load</string>
+    <string name="unload">Unload</string>
+    <string name="delete">Delete</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="no_model_loaded">No model loaded</string>
+    <string name="model_loaded">Model loaded</string>
+    <string name="inference_running">Processing inference...</string>
+    <string name="available_models">Available Models</string>
+    <string name="no_models_found">No GGUF models found</string>
+    <string name="models_instruction">Place .gguf files in: /storage/emulated/0/Android/data/com.mubashir.miniai/files/AI_Models/</string>
+    <string name="currently_loaded">Currently Loaded</string>
+    <string name="context_size">Context Size</string>
+    <string name="quantization">Quantization</string>
+    <string name="model_size">Model Size</string>
+    <string name="tokens_generated">Tokens Generated</string>
+    <string name="inference_time">Inference Time</string>
+</resources>
